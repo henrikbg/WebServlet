@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: lightblue;
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.error {
+    color: red;
+}

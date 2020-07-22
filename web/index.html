@@ -1,0 +1,31 @@
+<!--
+    Henrik Berg, February 8th, 2018
+    index.html
+    This web application uses JSP and SQL to manipulate a database
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Input</h1>
+        <!-- Submitting information for table input -->
+        <p><b>Correct Credentials:</b></p>
+        <p><b>Username:</b> Admin</p>
+        <p><b>Password:</b> Password123</p>
+        <form action="output" method="POST">
+            <br><br>
+            <p class="input"><b>Username:</b>
+            <input type="text" name="Username"></p>
+            <br><br>
+            <p class="input"><b>Password:</b>
+            <input type="password" name="Password"></p>
+            <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
